@@ -1,0 +1,5 @@
+*.sh eol=lf
+*.xml eol=lf
+*.cfg eol=lf
+*.properties eol=lf
+Dockerfile eol-lf
