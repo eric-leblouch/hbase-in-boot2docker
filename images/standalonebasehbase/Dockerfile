@@ -1,6 +1,6 @@
 from ubeeko/javassh
 
-ENV HBASE_VERSION 0.98.9
+ENV HBASE_VERSION 0.98.10
 ENV HADOOP_VERSION -hadoop2
 
 RUN wget http://mir2.ovh.net/ftp.apache.org/dist/hbase/hbase-$HBASE_VERSION/hbase-$HBASE_VERSION$HADOOP_VERSION-bin.tar.gz
