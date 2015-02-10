@@ -38,12 +38,6 @@ For ease of use you can put the hbase-in-boot2docker/bin folder in your path
 
 Launch ```hbase-env.sh init``` and edit the /etc/hosts file as required
 
-### Building the images
-
-Launch ```build-images.sh``` or ```hbase-env.sh update``` to update the repository before building
-
-You can pass the force parameter to build-images.sh if you do not want to use the docker cache
-
 ### Using the container
 
 To start the container simply use ```hbase-env.sh start```
