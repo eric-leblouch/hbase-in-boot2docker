@@ -76,13 +76,14 @@ start(){
 update(){
 	$(boot2dockershellinit)
 	git pull
-	$DIR/build-images.sh
+	docker pull hfactory/hbase
 }
 
 case "$1" in
 	init)
 		boot2docker init
 		$(up)
+		update
 		ip=$(boot2dockerip)
 		echo "Update /etc/hosts with the following line:"
 		echo "$ip	boot2docker"
