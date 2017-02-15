@@ -1,5 +1,7 @@
 # hbase-in-boot2docker
 
+**Deprecated in favor of the** [docker-machine version](https://github.com/hfactory/hfactory-server-in-docker-machine)
+
 A hbase standalone docker inside a boot2docker for Mac OS.
 
 Restarting the container allows you to start again with an empty hbase server.
@@ -37,12 +39,6 @@ For ease of use you can put the hbase-in-boot2docker/bin folder in your path
 ### First initialization
 
 Launch ```hbase-env.sh init``` and edit the /etc/hosts file as required
-
-### Building the images
-
-Launch ```build-images.sh``` or ```hbase-env.sh update``` to update the repository before building
-
-You can pass the force parameter to build-images.sh if you do not want to use the docker cache
 
 ### Using the container
 
