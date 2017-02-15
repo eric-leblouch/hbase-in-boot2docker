@@ -1,5 +1,7 @@
 # hbase-in-boot2docker
 
+* Deprecated in favor of the * [docker-machine version](https://github.com/hfactory/hfactory-server-in-docker-machine)
+
 A hbase standalone docker inside a boot2docker for Mac OS.
 
 Restarting the container allows you to start again with an empty hbase server.
